@@ -1,0 +1,6 @@
+<acceptance-test-run title="Should instantiated page objects for a web test" name="shouldInstantiatedPageObjectsForAWebTest" steps="0" successful="0" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="7209" timestamp="2018-11-19T14:47:05.798+04:00">
+  <user-story id="WhenSearchingOnGoogle" name="When searching on google" path=""/>
+  <tags>
+    <tag name="When searching on google" type="story"/>
+  </tags>
+</acceptance-test-run>

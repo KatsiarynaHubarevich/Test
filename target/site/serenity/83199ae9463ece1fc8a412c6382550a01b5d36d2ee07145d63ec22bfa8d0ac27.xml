@@ -1,0 +1,145 @@
+<acceptance-test-run title="Check mail receiveing" name="checkMailReceiveing" steps="19" successful="19" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="82023" timestamp="2018-11-21T16:32:02.234+04:00">
+  <user-story id="tests.EmailVerificationTest" name="Email verification test" path="tests"/>
+  <tags>
+    <tag name="Email verification test" type="story"/>
+  </tags>
+  <test-step result="SUCCESS" duration="1784">
+    <screenshots>
+      <screenshot image="811f2f1db4e5845a8ac3d3dc90b5211d_NONE.png"/>
+      <screenshot image="08aae495fe8fe703aebe44c701df65b3_NONE.png"/>
+    </screenshots>
+    <description>Enter email address: &lt;span class=&apos;step-parameter&apos;&gt;katesolodkaya@gmail.com&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1181">
+    <screenshots>
+      <screenshot image="2498c8baa10a1af79f1a5ba38068def1_NONE.png"/>
+      <screenshot image="5e3e74679334253bb261073a9df66353_NONE.png"/>
+    </screenshots>
+    <description>Click next button</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1119">
+    <screenshots>
+      <screenshot image="863726bcac125ba5251b91651d6ba87d_NONE.png"/>
+      <screenshot image="bef5656f9b22a7ef398d487c3f246e9d_NONE.png"/>
+    </screenshots>
+    <description>Enter password: &lt;span class=&apos;step-parameter&apos;&gt;7895216kate89375&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="973">
+    <screenshots>
+      <screenshot image="6c4edb8bfcd546bc558401be4cc4c7aa_NONE.png"/>
+      <screenshot image="6e1875acec8cb85c6d1ac62407d4c69c_NONE.png"/>
+    </screenshots>
+    <description>Click next button</description>
+  </test-step>
+  <test-group name="Check google mail page appears" result="SUCCESS">
+    <screenshots>
+      <screenshot image="bfca6c2b0bedd6b8f28cc6d3ac40853d_NONE.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="4626">
+      <screenshots>
+        <screenshot image="71cfc576a74bde9de6024d61dcc1d7df_NONE.png"/>
+        <screenshot image="7ef437994c904f662e4359e4687c942c_NONE.png"/>
+      </screenshots>
+      <description>Wait for page to load</description>
+    </test-step>
+  </test-group>
+  <test-step result="SUCCESS" duration="3542">
+    <screenshots>
+      <screenshot image="7ef437994c904f662e4359e4687c942c_NONE.png"/>
+      <screenshot image="a9434f0d19a61abeba5f8febb541ce00_NONE.png"/>
+    </screenshots>
+    <description>Click compose button</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="2987">
+    <screenshots>
+      <screenshot image="3be24efe5c0971b8cd2028092bc15b53_NONE.png"/>
+      <screenshot image="c3a87dbb73f9ffaff64e96bae7b74a71_NONE.png"/>
+    </screenshots>
+    <description>Enter recipients: &lt;span class=&apos;step-parameter&apos;&gt;katsiarynahubarevich@gmail.com&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="2981">
+    <screenshots>
+      <screenshot image="5fe81abf16651c2164ab21c3dfe06c53_NONE.png"/>
+      <screenshot image="fa6480fbb3e967a5c9e1ae7b36971bb2_NONE.png"/>
+    </screenshots>
+    <description>Enter subject: &lt;span class=&apos;step-parameter&apos;&gt;Test3&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="2840">
+    <screenshots>
+      <screenshot image="139c74d65faef7362b3a7f08a4f6dfbb_NONE.png"/>
+      <screenshot image="ea78fcee21ca550146432dcca466f09e_NONE.png"/>
+    </screenshots>
+    <description>Enter message: &lt;span class=&apos;step-parameter&apos;&gt;Text2&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="3041">
+    <screenshots>
+      <screenshot image="5bc74dc892c2c73141fa83f3f4039758_NONE.png"/>
+      <screenshot image="4a49146f4a5f04ac2169e10ec2ea66d3_NONE.png"/>
+    </screenshots>
+    <description>Click send button</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="3006">
+    <screenshots>
+      <screenshot image="f6e5ed53e5175e63cf6362a9f7659f4b_NONE.png"/>
+    </screenshots>
+    <description>Check message send notification appears</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="4441">
+    <screenshots>
+      <screenshot image="1894eceb2a6ae9e85e2bc2fdcf200426_NONE.png"/>
+    </screenshots>
+    <description>Click sign out button</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="2067">
+    <screenshots>
+      <screenshot image="8806b07a6b47bda914f5b69fce49bb8f_NONE.png"/>
+      <screenshot image="62c1e366f3bec700f840e30323f09e8b_NONE.png"/>
+    </screenshots>
+    <description>Change account</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1255">
+    <screenshots>
+      <screenshot image="cce086e9873e3a286a50ceec19f08bb2_NONE.png"/>
+      <screenshot image="efe4be303994e6becac626c67d94d419_NONE.png"/>
+    </screenshots>
+    <description>Enter email address: &lt;span class=&apos;step-parameter&apos;&gt;katsiarynahubarevich@gmail.com&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="996">
+    <screenshots>
+      <screenshot image="8edb32c67063a61ec7a3dce5b7c7de43_NONE.png"/>
+      <screenshot image="a94ee319e3e4fe333c42fe5eda815d57_NONE.png"/>
+    </screenshots>
+    <description>Click next button</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1015">
+    <screenshots>
+      <screenshot image="cb1e453cb43b7efa072e1c47c8d5bc80_NONE.png"/>
+      <screenshot image="41e32b42255915829d2e1826c7b2576e_NONE.png"/>
+    </screenshots>
+    <description>Enter password: &lt;span class=&apos;step-parameter&apos;&gt;7895216Kate&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="903">
+    <screenshots>
+      <screenshot image="3f6cd256729e115eee0e6f3541146837_NONE.png"/>
+      <screenshot image="4d882981b2d7dd00cfd49519488544ce_NONE.png"/>
+    </screenshots>
+    <description>Click next button</description>
+  </test-step>
+  <test-group name="Check google mail page appears" result="SUCCESS">
+    <screenshots>
+      <screenshot image="6bf08d8f85c8eee7440e45d87f85eb78_NONE.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="785">
+      <screenshots>
+        <screenshot image="1daf7884bc37230f84b5c2327fe23c75_NONE.png"/>
+      </screenshots>
+      <description>Wait for page to load</description>
+    </test-step>
+  </test-group>
+  <test-step result="SUCCESS" duration="846">
+    <screenshots>
+      <screenshot image="1daf7884bc37230f84b5c2327fe23c75_NONE.png"/>
+    </screenshots>
+    <description>Check message was received</description>
+  </test-step>
+</acceptance-test-run>

@@ -1,0 +1,42 @@
+<acceptance-test-run title="Check evernote static page" name="checkEvernoteStaticPage" steps="3" successful="0" failures="0" errors="1" skipped="2" ignored="0" pending="0" annotated-result="ERROR" result="ERROR" duration="9678" timestamp="2018-11-19T14:47:51.322+04:00">
+  <user-story id="requirements.StaticPage.Footer.ProductSection" name="Product section" path="requirements.StaticPage.Footer">
+    <feature id="requirements.StaticPage.Footer" name="Footer"/>
+  </user-story>
+  <tags>
+    <tag name="Footer" type="feature"/>
+    <tag name="Product section" type="story"/>
+  </tags>
+  <test-step result="ERROR" duration="9523">
+    <screenshots>
+      <screenshot image="020cbaeaed27738002c81821e7c532c4_NONE.png"/>
+    </screenshots>
+    <description>Click footer link: &lt;span class=&apos;step-parameter&apos;&gt;Evernote&lt;/span&gt;</description>
+    <error>no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//footer//a[text()=&apos;Evernote&apos;]&quot;}
+  (Session info: chrome=70.0.3538.102)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.07 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.43.0&apos;, revision: &apos;accb3003b9fb8f7cae30f9669b4c594a065396a6&apos;, time: &apos;2014-09-09 22:22:51&apos;
+System info: host: &apos;WSB-215-71&apos;, ip: &apos;192.168.127.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_191&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:12881}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a), userDataDir=C:\Users\K6304~1.HUB\AppData\Local\Temp\scoped_dir19940_395}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=70.0.3538.102, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 620c4770dd8682918588b0327ad28056</error>
+    <exception>org.openqa.selenium.NoSuchElementException:no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//footer//a[text()=&apos;Evernote&apos;]&quot;}
+  (Session info: chrome=70.0.3538.102)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.07 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.43.0&apos;, revision: &apos;accb3003b9fb8f7cae30f9669b4c594a065396a6&apos;, time: &apos;2014-09-09 22:22:51&apos;
+System info: host: &apos;WSB-215-71&apos;, ip: &apos;192.168.127.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_191&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:12881}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a), userDataDir=C:\Users\K6304~1.HUB\AppData\Local\Temp\scoped_dir19940_395}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=70.0.3538.102, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 620c4770dd8682918588b0327ad28056&#xd;
+[pages.BasePage.clickFooterLink(BasePage.java:30), steps.GlobalSteps.clickFooterLink(GlobalSteps.java:27), tests.JustOneProductTest.checkEvernoteStaticPage(JustOneProductTest.java:32)]</exception>
+  </test-step>
+  <test-step result="SKIPPED" duration="32">
+    <description>Check label header: &lt;span class=&apos;step-parameter&apos;&gt;Evernote&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="22">
+    <description>Check page title: &lt;span class=&apos;step-parameter&apos;&gt;Evernote&lt;/span&gt;</description>
+  </test-step>
+</acceptance-test-run>

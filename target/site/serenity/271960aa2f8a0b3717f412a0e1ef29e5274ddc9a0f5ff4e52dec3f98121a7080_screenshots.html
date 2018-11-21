@@ -1,0 +1,251 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+    <link rel="shortcut icon" href="favicon.ico">
+
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<!--[if IE 7]>
+<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">
+<![endif]--><!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><!-- Bootstrap -->
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script><link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-bdd-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname"></span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="bluetext">
+                <a href="index.html" class="bluetext">Home</a>
+                > <a
+                    href="049c9ffdf143ef251d617116ebea9ca15e6def97617139e545ecb689562f75c8.html">When Searching On Google</a>
+                > <a
+                    href="271960aa2f8a0b3717f412a0e1ef29e5274ddc9a0f5ff4e52dec3f98121a7080.html">Check mail receiveing </a>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 20-11-2018 17:24</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+    <!--
+    <div id="contentbody">
+        <div class="titlebar">
+        <div class="story-title">
+            <table width="1005">
+                <td width="50"><img class="story-outcome-icon" src="images/success.png" width="25" height="25"/> </td>
+                <td width="%"><span class="test-case-title"><span
+                        class="success-color">Check mail receiveing<span class="related-issue-title"></span></span></span>
+                </td>
+                <td width="100"><span class="test-case-duration"><span class="greentext">61.37s</span></span>
+                </td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    </div>
+-->
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-comments-o"></i>
+                                    <span class="story-header-title">When Searching On Google</span>
+                                    <span class="badge tag-badge">Story</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><img class="story-outcome-icon"
+                                                            src="images/success.png"/></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Check mail receiveing
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="811f2f1db4e5845a8ac3d3dc90b5211d_NONE.png" alt=""
+                     title="Enter email address: &lt;span class='step-parameter'&gt;katesolodkaya@gmail.com&lt;/span&gt;" width="1920"/>
+                <img src="08aae495fe8fe703aebe44c701df65b3_NONE.png" alt=""
+                     title="Enter email address: &lt;span class='step-parameter'&gt;katesolodkaya@gmail.com&lt;/span&gt;" width="1920"/>
+                <img src="2498c8baa10a1af79f1a5ba38068def1_NONE.png" alt=""
+                     title="Click next button" width="1920"/>
+                <img src="4796c7e79f52332a5f5ca4919cf59187_NONE.png" alt=""
+                     title="Click next button" width="1920"/>
+                <img src="092721d9046227fd186c1cc12e118a87_NONE.png" alt=""
+                     title="Enter password: &lt;span class='step-parameter'&gt;7895216kate89375&lt;/span&gt;" width="1920"/>
+                <img src="bef5656f9b22a7ef398d487c3f246e9d_NONE.png" alt=""
+                     title="Enter password: &lt;span class='step-parameter'&gt;7895216kate89375&lt;/span&gt;" width="1920"/>
+                <img src="6c4edb8bfcd546bc558401be4cc4c7aa_NONE.png" alt=""
+                     title="Click next button" width="1920"/>
+                <img src="7972210465849b0af0f83822d4058266_NONE.png" alt=""
+                     title="Click next button" width="1920"/>
+                <img src="0e3e416670a09fd4e41e125bf3fd1c55_NONE.png" alt=""
+                     title="Wait for page to load" width="1920"/>
+                <img src="e4d3d871ab4d49259cf994541770923f_NONE.png" alt=""
+                     title="Wait for page to load" width="1920"/>
+                <img src="832a44d1959e3c217bd26f37c59982a3_NONE.png" alt=""
+                     title="Check google mail page appears" width="1920"/>
+                <img src="60e7aea2cf847b81726c4a766d50c0c3_NONE.png" alt=""
+                     title="Click compose button" width="1920"/>
+                <img src="4d06d5b65919a9bf87d1daf2c85c7656_NONE.png" alt=""
+                     title="Click compose button" width="1920"/>
+                <img src="6a4a3e1b02edcb0230add652569312b9_NONE.png" alt=""
+                     title="Enter recipients: &lt;span class='step-parameter'&gt;katsiarynahubarevich@gmail.com&lt;/span&gt;" width="1920"/>
+                <img src="1469b84b99423bbd9304c06078594f27_NONE.png" alt=""
+                     title="Enter subject: &lt;span class='step-parameter'&gt;Test&lt;/span&gt;" width="1920"/>
+                <img src="97580857bc63c60439e0bf1e28345b98_NONE.png" alt=""
+                     title="Enter message: &lt;span class='step-parameter'&gt;Hello!&lt;/span&gt;" width="1920"/>
+                <img src="b143fc4033d3d08dfd54e6dc4709139b_NONE.png" alt=""
+                     title="Click send button" width="1920"/>
+                <img src="5acbcc6d8321d0e8629f212837326b55_NONE.png" alt=""
+                     title="Check message send notification appears" width="1920"/>
+                <img src="1894eceb2a6ae9e85e2bc2fdcf200426_NONE.png" alt=""
+                     title="Click sign out button" width="1920"/>
+                <img src="8806b07a6b47bda914f5b69fce49bb8f_NONE.png" alt=""
+                     title="Change account" width="1920"/>
+                <img src="c48ba5e71ce0ff1a0fed86e9a3996afa_NONE.png" alt=""
+                     title="Change account" width="1920"/>
+                <img src="811f2f1db4e5845a8ac3d3dc90b5211d_NONE.png" alt=""
+                     title="Enter email address: &lt;span class='step-parameter'&gt;katsiarynahubarevich@gmail.com&lt;/span&gt;" width="1920"/>
+                <img src="efe4be303994e6becac626c67d94d419_NONE.png" alt=""
+                     title="Enter email address: &lt;span class='step-parameter'&gt;katsiarynahubarevich@gmail.com&lt;/span&gt;" width="1920"/>
+                <img src="8edb32c67063a61ec7a3dce5b7c7de43_NONE.png" alt=""
+                     title="Click next button" width="1920"/>
+                <img src="38fca756b92b663d46eb8b00368f6cca_NONE.png" alt=""
+                     title="Click next button" width="1920"/>
+                <img src="6763599d6cc1b15ac454b39eba5474ce_NONE.png" alt=""
+                     title="Enter password: &lt;span class='step-parameter'&gt;7895216Kate&lt;/span&gt;" width="1920"/>
+                <img src="41e32b42255915829d2e1826c7b2576e_NONE.png" alt=""
+                     title="Enter password: &lt;span class='step-parameter'&gt;7895216Kate&lt;/span&gt;" width="1920"/>
+                <img src="d75940a114e6de9898b2a3d6e30bff45_NONE.png" alt=""
+                     title="Click next button" width="1920"/>
+                <img src="06730e44ddf1aec34d37562a76faabfe_NONE.png" alt=""
+                     title="Wait for page to load" width="1920"/>
+                <img src="f4fa54c811be384bb8d77f75702c9aa4_NONE.png" alt=""
+                     title="Wait for page to load" width="1920"/>
+                <img src="3beb716fea59b8320e4912dcb391bac8_NONE.png" alt=""
+                     title="Check google mail page appears" width="1920"/>
+                <img src="3beb716fea59b8320e4912dcb391bac8_NONE.png" alt=""
+                     title="Check message was received" width="1920"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 1.0.47</span>
+</div>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<acceptance-test-run title="Should instantiated page objects for a web test" name="shouldInstantiatedPageObjectsForAWebTest" steps="4" successful="4" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="10510" timestamp="2018-11-20T13:12:25.500+04:00">
+  <user-story id="tests.WhenSearchingOnGoogle" name="When searching on google" path="tests"/>
+  <tags>
+    <tag name="When searching on google" type="story"/>
+  </tags>
+  <test-step result="SUCCESS" duration="1008">
+    <screenshots>
+      <screenshot image="359c3076515af77526788f4e58c26e10_NONE.png"/>
+      <screenshot image="facad2621ca583e8837e3ef99544e0a3_NONE.png"/>
+    </screenshots>
+    <description>Enter email address: &lt;span class=&apos;step-parameter&apos;&gt;katesolodkaya@gmail.com&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="984">
+    <screenshots>
+      <screenshot image="7f71ff169049eeec4bf91a2ffad90cd5_NONE.png"/>
+      <screenshot image="96cb0e7a877e8b0d9aa2fdfb30296b5f_NONE.png"/>
+    </screenshots>
+    <description>Click next button</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="926">
+    <screenshots>
+      <screenshot image="8d949c2aec69336036b0ac336ee4b46f_NONE.png"/>
+      <screenshot image="6a82f1aae6e8d2eed2cd21e5d98020f8_NONE.png"/>
+    </screenshots>
+    <description>Enter password: &lt;span class=&apos;step-parameter&apos;&gt;7895216kate89375&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="696">
+    <screenshots>
+      <screenshot image="20be62a16a8c32931660a5a2e3085d19_NONE.png"/>
+    </screenshots>
+    <description>Click next button</description>
+  </test-step>
+</acceptance-test-run>
